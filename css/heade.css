@@ -68,10 +68,34 @@ form {
 /* TODO:change to bold */
 
 
+.sign-in a {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in {
+    padding: 5px;
+    width: 140px;
+}
+.returns {
+    padding: 5px;
+    width: 100px;
+}
+
+.sign-in a .sign1, .returns1 {
+    font-size: 12px;
+}
+.sign-in a .sign2, .returns2 {
+    font-size: 14px;
+}
+
+
+
 .deliver-to a {
     display: flex;
     padding-top: 7px;
     padding-left: 5px;
+    width: 60px;
 }
 
 
@@ -113,6 +137,8 @@ form {
 
 .search-bar .nav-left:hover {
     background-color: #cdcdcd;
+    cursor: pointer;
+
 }
 
  .nav-icon {
@@ -131,12 +157,22 @@ form {
     line-height: 0;
 }
 
+/* .lang .nav-icon {
+    border-top: 4px solid #cdcdcd;
+}
+TODO: add the arrow icon to the flag */
+
+
 .nav-fill input {
     height: 100%;
     /* padding-left: 30px; */
+    outline: none;
+    border:none;
+    background: transparent;
+    width: 400px;
 }
 
-/* TODO: to fix the input so in would cover the searchbar */
+/* TODO: to fix the input so in would cover the searchbar and glow */
 
 .search-bar .nav-right {
     width: 50px;
@@ -153,6 +189,7 @@ form {
 
 .search-bar .nav-right:hover {
     background-color: #e5aa5f;
+    cursor: pointer;
 }
 
 
@@ -163,3 +200,42 @@ form {
    
 }
 
+.flag-img {
+    background: url("/assets/images/american-flag-logo-vector.png")   ;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    width: 28px;
+	height: 30px;
+}
+
+.lang {
+    margin-left: 5px;
+    height: var(--top-hight);
+    width: var(--top-hight);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-img {
+	background: url('../assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png') no-repeat -218px -337px;
+	width: 41px;
+	height: 28px;
+
+}
+
+.cart-icon a{
+    width: 90px;
+    display: flex;
+}
+
+.cart-icon {
+    line-height: 40px;
+    padding-top: 10px;
+}
+
+
+/* .cart-num {
+    position: absolute;
+    right:0;
+} */
