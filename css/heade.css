@@ -1,0 +1,27 @@
+/* header {
+    display: flex;
+    flex-direction: column;
+} */
+
+
+.top-header {
+    height: 60px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+/* nav serch 430/60 */
+
+form {
+    display: flex;
+}
+
+.top-header .logo {
+    background: url('../assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png') no-repeat 3.937% 12.114%;
+	width: 96px;
+	height: 29px;
+}
+
