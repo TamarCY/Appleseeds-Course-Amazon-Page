@@ -33,6 +33,10 @@
     font-weight: normal;
   }
 
-  body {
+body {
     font-family: ember;
+}
+
+body a {
+    text-decoration: none;
 }

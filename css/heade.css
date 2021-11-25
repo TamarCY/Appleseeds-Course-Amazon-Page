@@ -1,7 +1,12 @@
-/* header {
+header {
+    --top-hight: 50px;
     display: flex;
     flex-direction: column;
-} */
+}
+
+header a {
+    color: #fff;
+}
 
 
 .top-header {
@@ -9,11 +14,10 @@
     background-color: #000;
     color: #fff;
     display: flex;
-    padding-left: 10px;
-    padding-top: 15px;
+    padding: 5px;
+    
 }
 
-/* nav serch 430/60 */
 
 form {
     display: flex;
@@ -23,5 +27,139 @@ form {
     background: url('../assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png') no-repeat 3.937% 12.114%;
 	width: 96px;
 	height: 29px;
+}
+
+.top-header .logo-box {   
+    height: var(--top-hight);
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b-h {
+    border: 1px solid #000;
+    border-radius: 1.5px;
+
+}
+
+.b-h:hover {
+    border: 1px solid white;
+    border-radius: 1.5px;
+
+}
+
+.deliver-to {
+    height: var(--top-hight);
+    width: 90px;
+    
+}
+
+.deliver-to a .location1{
+    color: rgb(204, 204, 204);
+    font-size: 12px;
+}
+
+.deliver-to a .location2{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+/* TODO:change to bold */
+
+
+.deliver-to a {
+    display: flex;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+
+
+
+.location-logo {
+	background: url('../assets/images//nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png') no-repeat 21.194% 87.529%;
+	width: 15px;
+	height: 17px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+/* nav serch 430/60 */
+
+.search-bar {
+    width: 70% ;
+    height: 38px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 3px;
+    position: relative;
+    flex-grow: 100;
+}
+
+.search-bar .nav-left {
+    background-color: #f3f3f3;
+    height: 100%;
+    width: 52px;
+    border-right: 1px solid #cdcdcd;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #555;
+    font-size: 12px;
+    line-height: 33px;
+    padding-top: 4px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.search-bar .nav-left:hover {
+    background-color: #cdcdcd;
+}
+
+ .nav-icon {
+    position: absolute;
+    top: 19px;
+    right: 8px;
+    border-style: solid;
+    _border-style: dashed;
+    border-width: 4px;
+    border-color: transparent;
+    border-top: 4px solid #666;
+    border-bottom-width: 0;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+.nav-fill input {
+    height: 100%;
+    /* padding-left: 30px; */
+}
+
+/* TODO: to fix the input so in would cover the searchbar */
+
+.search-bar .nav-right {
+    width: 50px;
+    height: 100%;
+    background-color: rgb(254, 189, 105);
+    position: absolute;
+    right: 0;
+    border-radius: 0 4px 4px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.search-bar .nav-right:hover {
+    background-color: #e5aa5f;
+}
+
+
+.search-logo {
+	background: url('/assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png') no-repeat 3.04% 67.599%;
+	width: 21px;
+	height: 21px;
+   
 }
 
