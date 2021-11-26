@@ -1,7 +1,9 @@
 header {
     --top-hight: 50px;
+    --nav-hight: 30px;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 header a {
@@ -11,7 +13,7 @@ header a {
 
 .top-header {
     height: 60px;
-    background-color: #000;
+    background-color: #131921;
     color: #fff;
     display: flex;
     padding: 5px;
@@ -38,9 +40,8 @@ form {
 }
 
 .b-h {
-    border: 1px solid #000;
+    border: 1px solid transparent;
     border-radius: 1.5px;
-
 }
 
 .b-h:hover {
@@ -95,7 +96,7 @@ form {
     display: flex;
     padding-top: 7px;
     padding-left: 5px;
-    width: 60px;
+    width: 90px;
 }
 
 
@@ -116,6 +117,7 @@ form {
     background-color: #fff;
     border-radius: 4px;
     margin-top: 3px;
+    margin-left: 10px;
     position: relative;
     flex-grow: 100;
 }
@@ -239,3 +241,80 @@ TODO: add the arrow icon to the flag */
     position: absolute;
     right:0;
 } */
+
+.nav-header {
+    height: 40px;
+    background-color: #222f3e;
+    padding: 5px;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.nav-header-left {
+    padding: 5px;
+    height: var(--nav-hight) ;
+
+}
+
+.nav-header-left a{
+    display:flex;
+}
+
+.hamburger {
+	background: url('../assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png') no-repeat -172px -255px;
+	width: 18px;
+	height: 14px;
+}
+
+.nav-all {
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 5px;
+    white-space: nowrap;
+}
+/* TODO: to bold */
+
+.nav-header-fill {
+    display: flex;
+}
+
+.nav-header-content {
+    display: flex;
+}
+
+
+
+.nav-header-content a, .nav-header-right a{
+    display: flex;
+    font-size: 14px;
+    margin: 5px 1px 6px 0;
+    padding: 0 11px;
+}
+
+.sub-header img {
+    width: 650px;
+}
+
+.sub-header {
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.bread-crumbs, .bread-crumbs a {
+    color: #565959;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.bread-crumbs ul {
+    list-style: none;
+    display: flex;
+    flex-direction: start;
+    padding: 0;
+    margin-top: 0;
+}
+
+
+
+
