@@ -1,0 +1,40 @@
+
+main {
+ margin-top: 20px;
+ padding-top: 0;
+ min-width: 996px;
+ border: 2px solid black;
+ height: 120vh;
+}
+
+.image-section {
+    width: 100% 
+}
+
+.left-col {
+    position: sticky;
+    top: 4px;
+    height: 100%;
+    float: left;
+}
+
+.image-book {
+    margin-bottom: 22px;
+}
+
+
+/* box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+} */
+
+.big-pic {
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+    visibility: hidden;
+}
+
+.small-pics {
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+}

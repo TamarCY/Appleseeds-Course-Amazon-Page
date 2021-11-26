@@ -294,6 +294,7 @@ TODO: add the arrow icon to the flag */
 
 .sub-header img {
     width: 650px;
+    min-width: 300px;
 }
 
 .sub-header {
@@ -315,6 +316,9 @@ TODO: add the arrow icon to the flag */
     margin-top: 0;
 }
 
+.bread-crumbs, header, .nav-header{
+    min-width: 996px;
+}
 
 
 
