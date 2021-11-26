@@ -66,7 +66,6 @@ form {
     font-size: 14px;
     font-weight: 700;
 }
-/* TODO:change to bold */
 
 
 .sign-in a {
@@ -88,6 +87,7 @@ form {
 }
 .sign-in a .sign2, .returns2 {
     font-size: 14px;
+    font-weight: bold;
 }
 
 
@@ -109,7 +109,6 @@ form {
     padding-right: 20px;
 }
 
-/* nav serch 430/60 */
 
 .search-bar {
     width: 70% ;
@@ -273,7 +272,6 @@ TODO: add the arrow icon to the flag */
     padding-left: 5px;
     white-space: nowrap;
 }
-/* TODO: to bold */
 
 .nav-header-fill {
     display: flex;
@@ -290,6 +288,10 @@ TODO: add the arrow icon to the flag */
     font-size: 14px;
     margin: 5px 1px 6px 0;
     padding: 0 11px;
+}
+
+.nav-header-right a{
+    font-weight: bold;
 }
 
 .sub-header img {
