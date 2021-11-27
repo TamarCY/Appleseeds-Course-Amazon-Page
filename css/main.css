@@ -269,6 +269,12 @@ hr {
         z-index: 100; 
         border: solid 0.5px black;
         margin: 5px;
+
+    }
+
+    .smp:hover {
+        box-shadow:  0 0 3px 2px rgb(228 121 17 / 50%);
+        border: solid 0.5px #e77600;
     }
     
     .small-pics-1 {
@@ -330,6 +336,7 @@ hr {
         position: absolute;
         z-index: 100;
         display: block;
+        
         
     }
 
@@ -432,5 +439,5 @@ hr {
         font-size: 14px;
         line-height: 20px;
         text-align: center;
-        width:100%;
+        width: 100%;
     }
