@@ -1,0 +1,114 @@
+.carousel {
+    height: 200px;
+    margin: 0px 15px;
+}
+
+
+.carousel-body{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.carousel-card {
+    height: 300px;
+    width: 180px;
+    padding: 12px;
+}
+
+.carousel-btn-div {
+    height: 284;
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-btn {
+    width:34px;
+    height: 37px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    border-color: #D5D9D9;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    
+}
+
+
+.carousel-btn i{
+    padding: 4px 4px 2.2px;
+    position: relative;
+    top: 16px;
+    left: 12px;
+}
+
+.arr-lft{
+    background: url('../assets/images/media.png') no-repeat -124px -8px;
+	width: 9px;
+	height: 13px;
+    
+}
+
+.arr-rt{
+    background: url('../assets/images/media.png') no-repeat -7px -36px;
+	width: 8px;
+	height: 13px;
+    
+}
+
+.carousel-header h2 {
+    color: #C60;
+    font-size: 16px!important;
+    font-family: verdana,arial,helvetica,sans-serif!important;
+}
+
+.carousel-img {
+    height: 150px;
+    margin-bottom: 15px;
+    
+}
+
+
+
+.carousel-prodact a{
+    color: #007185;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+.carousel-prodact a:hover{
+    color: #c7511f;
+
+}
+
+.carousel-rating{
+    display: flex;
+    line-height: 15px;
+    font-size: 14px;
+    color: #007185;
+}
+
+.rating-num {
+    margin: 3px 5px;
+}
+
+.carousel-price {
+font-size: 18px;
+line-height: 24px;
+color: #b12704;
+display: flex;
+}
+
+
+
+.prime-img {
+    background: url('../assets/images/prime-sm.png') no-repeat -138px -73px;
+	width: 42px;
+	height: 12px;
+    margin-top: 8px;
+    margin-left: 4px;
+}
