@@ -68,7 +68,7 @@
             <div class="cart-icon">
                 <a href="#">
                     <div class="cart-img"></div>
-                    <!-- <div class="cart-mum">9</div> -->
+                    <div class="cart-num">9</div>
 
                     <div class="cart-text">Cart</div>
                 </a>
@@ -359,7 +359,17 @@
     <div class="space">
             
     </div>
-    
+    <script>
+        let cartNum = document.querySelector('.cart-num');
+        
+        const addItemFunc = () => cartNum.innerText++
+        const addBtn = document.querySelector('.add-to-list-btn').addEventListener("click", addItemFunc);
+        document.querySelector('.similar-btn').addEventListener("click", () => cartNum.innerText = 0);
+
+        
+
+    </script>
+
 </body>
 
 </html>

@@ -327,5 +327,17 @@ TODO: add the arrow icon to the flag */
     min-width: 996px;
 }
 
+.cart-icon {
+    position: relative;
+}
+
+.cart-num {
+    position: absolute;
+    bottom: 16px;
+    left: 18.5px;
+    color: #f08804;
+    font-weight: 700;
+    font-size: 16px;
+}
 
 
