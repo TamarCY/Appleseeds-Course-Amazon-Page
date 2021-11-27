@@ -247,7 +247,12 @@ TODO: add the arrow icon to the flag */
     padding: 5px;
     display: flex;
     overflow: hidden;
+    justify-content: space-between;
 
+}
+
+.left-side {
+    display: flex;
 }
 
 .nav-header-left {
